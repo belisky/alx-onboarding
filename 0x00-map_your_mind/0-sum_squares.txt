@@ -1,0 +1,8 @@
+Pseudocode for sum square..
+ 
+Func sum_square(int arr[]):
+	//A pseudocode to calculate the sum of squares of a list of numbers.
+	Int answer=0
+	while digit in arr:
+		answer=answer+digit**2
+	return answer

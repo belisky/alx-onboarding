@@ -1,0 +1,17 @@
+Pseudocode for sorting.
+
+Func sorting(int arr[]):
+	//a pseudo code to sort a list of three numbers
+	Int temp;
+	for i in arr:
+		for j in arr:
+			if i!=j:
+				if (i<j):
+					pass
+			else:
+				temp=arr[i]
+				arr[i]=arr[j]
+				arr[j]=temp
+	return arr;
+
+

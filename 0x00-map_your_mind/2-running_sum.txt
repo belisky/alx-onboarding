@@ -1,0 +1,9 @@
+Pseudocode for running:
+
+func running():
+	int ans=0
+	int input=user_input();
+	while input<0:
+		ans=ans+input
+		input=user_input();
+	return ans;
